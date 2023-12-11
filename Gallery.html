@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
+<title>Nanad's Study Journey</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  background-image:url(https://i.imgur.com/QvXkIlo.png);
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-left: 15px;  
+    border-radius: 30px; 
+}
+
+.navbar {
+    position: none;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 80px;
+    background-color: lightblue;
+    font-family: tahoma;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.navbar a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;
+    line-height: 80px;
+    text-decoration: none;
+    color: midnightblue;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.content {
+  width: 1000px;
+  height: 930px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 70px;
+  background-color: #fff;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.container {
+  width: 520px;
+  height: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.container img {
+margin: 20px;
+position: relative;
+z-index: 1;
+}
+
+.overlay p{ 
+    text-align: center;
+    margin-top: 35%;
+}
+
+.overlay{
+	position: absolute;
+    z-index: 2;
+    top: 0;
+    opacity: 0;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    background-color: #f1f1ea;
+    border-radius: 5px;
+}
+
+.container:hover .overlay{
+	opacity:0.8;
+}
+
+.column {
+  float: left;
+  padding: 20px;
+}
+
+.column.middle {
+  width: 59%;
+  background-color: lightblue;
+  margin: 20px 200px;
+  font-family: tahoma;
+  font-size: 13px;
+  text-align: justify;
+  letter-spacing: .5px;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: lightblue;
+  padding:30px 0px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: tahoma;
+  text-align: center;
+}
+    
+.footer .row {
+  width:100%;
+  margin: 40px 0px;
+  padding: 6px 0px;
+  color: midnightblue;
+  font-family: roboto;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+
+.footer .row a {
+  text-decoration:none;
+  color:#474738;
+  transition:0.5s;
+}
+
+.footer .row a:hover{
+  color:#fff;
+}
+
+.footer .row a i {
+  font-size: 20px;
+  margin: 0px 10px;
+}
+
+</style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <img class="logo" src="https://i.imgur.com/xCWvntJ.png">
+    <a href="Homepage.html">Home</a>
+    <a href="Profile.html">Profile</a>
+    <a href="Journal.html">Journal</a>
+    <a href="Gallery.html">Gallery</a>
+  </nav>
+
+<div class="content">
+  <div class="container">
+  <img src="https://i.imgur.com/GfOrgZw.jpeg" style="width: 130px;">
+  <img src="https://i.imgur.com/TynPGft.jpeg" style="width: 130px;">
+  <img src="https://i.imgur.com/9KxI2lS.jpeg" style="width: 130px;"><br>
+  <img src="https://i.imgur.com/UVjsQp6.jpg" style="width: 130px;">
+  <img src="https://i.imgur.com/budVNuU.jpeg" style="width: 130px;">
+  <img src="https://i.imgur.com/t9isSYS.jpeg" style="width: 130px;"><br>
+  <img src="https://i.imgur.com/QqRpc3R.jpg" style="width: 130px;">
+  <img src="https://i.imgur.com/Y1q1WVN.jpg" style="width: 130px;">
+  <img src="https://i.imgur.com/iBiddtn.jpg" style="width: 130px;">
+  <div class="overlay">
+    <p style="position: relative; top: 15%; font-family: Aclonica; font-size: 30px; color: salmon;"> My Growth</p>
+  </div>
+</div>
+
+<center><video id="myVideo" width="520" style="margin:40px; padding: 10px; border: dotted slateblue 2px; border-radius: 5px;" controls autoplay loop muted>
+  <source src="https://i.imgur.com/GfhzYhQ.mp4" type="video/mp4">
+  <source src="https://i.imgur.com/GfhzYhQ.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video></center>
+
+</div>
+
+
+  
+  </body>
+  <footer>
+    <div class="footer">
+    <div class="row">
+    <a href="https://www.facebook.com/lyxxn/"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.instagram.com/aadhinrz/"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.pinterest.com/spceBums/"><i class="fa fa-pinterest"></i></a>
+    <a href="https://twitter.com/hazel_nuts98"><i class="fa fa-twitter"></i></a>
+    </div>
+    
+    
+    <div class="row">
+    NANAD Copyright © 2023 Nadzirah - All rights reserved || Designed By: Nadzirah Sulaiman 
+    </div>
+    </div>
+    </footer>
+</html>
